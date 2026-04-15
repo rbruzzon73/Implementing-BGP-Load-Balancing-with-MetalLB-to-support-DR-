@@ -27,7 +27,7 @@ In this scenario,  the reachability of External IP addresses associated with the
 - The adoption of a Network Topology where the External IP Addresses assigned to the LoadBalancer Services and learned from the External BGP routers are redistributed, towards an Interior Gateway Protocol (OSPF in Figure 1), eliminates the complexities associated with the full mesh requirement of the iBGP protocol.
   
    *Figure 1 - Modernizing Disaster Recovery: from traditional Hardware Load Balancers to an Integrated, BGP load balancer architecture.*
-   <img src="https://github.com/rbruzzon73/BGP-Driven_Disaster_Recovery_for_OpenShift_Virtualization/blob/main/Figure1-Modernizing_Disaster_Recovery.jpg" width="100%" height="100%">
+   <img src="https://github.com/rbruzzon73/BGP-Driven_Disaster_Recovery_for_OpenShift_Virtualization/blob/main/Figure1-Modernizing_Disaster_Recovery-lb.jpg" width="100%" height="100%">
 
 
    ***
