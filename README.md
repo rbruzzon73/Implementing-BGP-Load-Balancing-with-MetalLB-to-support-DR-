@@ -10,7 +10,7 @@ This approach leverages the reconvergence capabilities of the network infrastruc
 
 - Point Of Attention:
 
-   - This approach does not support VMs connected directly to customer VLANs where IP advertisement must occur at the infrastructure level (e.g., on customer routers serving as the default gateway for those specific VLANs), rather than within OpenShift Virtualization.
+   - This approach does not support VMs connected directly to customer VLANs where IP advertisement occurs at the infrastructure level (e.g., on customer routers acting as the default gateway for those specific VLANs), rather than within OpenShift Virtualization.
 
 - MetalLB advertises external IP addresses as Network Layer Reachability Information (NLRI composed by Network Prefix and Network Length) to the network's control plane via BGP.
 This feature facilitates the deployment of scalable, highly available network services, including those based on dual-stack (IPv4 and IPv6)."
