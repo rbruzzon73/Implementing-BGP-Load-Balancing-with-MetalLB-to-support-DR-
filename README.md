@@ -332,7 +332,7 @@ To establish sessions with multiple external routers, it is necessary to define 
 
 <br>
 
-### Disaster Recovery prerequisite:
+### Recovery prerequisite:
 
 - The availability of the latest full backup, or point-in-time (PIT) backups if applicable, of the virtual machine resources associated with rhel8-server stored externally from the primary OpenShift Virtualization cluster, along with the ability to restore these resources in the disaster recovery (DR) OpenShift Virtualization environment, is a prerequisite for this demonstration, as illustrated in Figure 8. 
 
